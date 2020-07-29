@@ -1,3 +1,8 @@
+"""
+@author : Seunghyun
+252. Meeting Rooms
+https://leetcode.com/problems/meeting-rooms/
+"""
 class Solution:
     def canAttendMeetings(self, intervals: List[List[int]]) -> bool:
         if len(intervals) <= 1:
